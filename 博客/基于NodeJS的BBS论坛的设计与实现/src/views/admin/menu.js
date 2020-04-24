@@ -1,0 +1,53 @@
+
+let menu=[
+    {
+        path:'/admin_image',
+        name:'首页轮播',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_user',
+        name:'站内用户',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_blog',
+        name:'帖子管理',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_comment',
+        name:'评论管理',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_prohibit',
+        name:'屏蔽词语',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_jubao',
+        name:'举报管理',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_news',
+        name:'站内新闻',
+        icon:'',
+        children:[]
+    },
+    {
+        path:'/admin_joinWe',
+        name:'问题反馈',
+        icon:'',
+        children:[]
+    },
+]
+
+export default menu

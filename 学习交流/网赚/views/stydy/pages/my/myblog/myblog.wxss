@@ -1,0 +1,19 @@
+/* pages/my/myblog/myblog.wxss */
+
+.card{
+    box-shadow: 1px 1px 1px 1px rgba(207,216,220,0.9);
+    width: 88%;
+    margin: 15px 2%;
+    border-radius: 5px;
+    padding: 1% 4%;
+    font-size: 12px;
+    color: #606266;
+
+}
+
+.titles{
+    font-size: 14px;
+    color:#303133;
+    margin: 0 auto;
+    text-align: center;
+}/* pages/my/myBlog/myBlog.wxss */

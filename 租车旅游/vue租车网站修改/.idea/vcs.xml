@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/分类/源码/前端代码" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/分类/源码/基于Vue.js的SPA租车网站的设计与实现" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/毕设网站/基于Vue.js的SPA租车网站的设计与实现" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/毕设网站/汽车租赁管理系统" vcs="Git" />
+  </component>
+</project>

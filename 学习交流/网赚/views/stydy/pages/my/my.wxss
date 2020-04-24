@@ -1,0 +1,60 @@
+
+/* pages/my/my.wxss */
+
+#main{
+  background-color: #fafafa;
+  height: 100vh;
+}
+.card{
+  height: 80px;
+  width: 96%;
+  margin: 0 2%;
+  background-color: #ffffff;
+ box-shadow: 1px 1px 1px 1px rgba(207,216,220,0.9)
+}
+
+.userImg{
+  width:60px;
+  height: 60px;
+  border-radius: 40px;
+  margin: 10px;
+
+}
+
+.nickName{
+  width: 300px;
+  position: relative;
+  bottom: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600
+}
+.nick{
+  width: 300px;
+  position: relative;
+  bottom: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+
+.my{
+    padding:50px 10px;
+}
+
+.main{
+  height: 60px;
+  width:90%;
+  padding: 0 5%;
+  margin-bottom: 20px;
+  line-height: 60px;
+  border-bottom: 1px solid #b2b2b2;
+   background-color: #ffffff;
+   flex-direction:column;
+  float: left;
+  text-align: center;
+}
+
+.centers{
+  margin: 0 5%;
+}

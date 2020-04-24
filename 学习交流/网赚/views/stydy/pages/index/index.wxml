@@ -1,0 +1,43 @@
+<!--pages/my/myBlog/myBlog.wxml-->
+<view>
+    <view style="position: absolute;top: 0;width: 100%">
+        <view style="width: 100%;height: 30px;">
+        <input name="names" bindchange="bindChangeName" value="{{names}}" placeholder="名称"
+               style="border: 1px solid #3399ea;border-radius: 5px;width: 58%;margin: 0 2%;float: left" />
+
+    </view>
+        <button bindtap="news">最新发布</button>
+        <button bindtap="prices">价格最高</button>
+
+
+        <view >
+            <!--轮播图-->
+            <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='3000'>
+                <swiper-item
+                            wx:for="{{imageList}}"
+                             wx:for-index="id"
+                             wx:for-item="item">
+                    <image style="width: 100vw;height: 220px" src="http://localhost:3000/getImg?imagePath={{item.image}}"></image>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+    <view style="margin-top: 360px">
+        <view class="card"
+              wx:for="{{tableData}}"
+              wx:for-index="id"
+              wx:for-item="item"
+              bindtap="toInfo"
+              data-index="{{id}}"
+        >
+            <view class="titles">{{item.names}}</view>
+            <image src="http://localhost:3000/getImg?imagePath={{item.image}}" style="height: 160px" ></image>
+            <view style="float: right">金币{{item.money}}</view>
+
+            <view>要求：{{item.text}}</view>
+
+        </view>
+    </view>
+</view>
+
+

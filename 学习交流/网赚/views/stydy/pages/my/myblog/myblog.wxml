@@ -1,0 +1,16 @@
+<!--pages/my/myblog/myblog.wxml-->
+<view style="margin-top: 10px">
+    <view class="card"
+          wx:for="{{tableData}}"
+          wx:for-index="id"
+          wx:for-item="item"
+          bindtap="toInfo"
+          data-index="{{id}}"
+    >
+        <view class="titles">{{item.names}}</view>
+        <view class="titles">{{item.status}}</view>
+        <image src="http://localhost:3000/getImg?imagePath={{item.image}}" style="width: 100%;height: 150px" ></image>
+        <view style="float: right">金币{{item.money}}</view>
+        <view>要求：{{item.text}}</view>
+    </view>
+</view>

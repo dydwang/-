@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+<view id='main'>
+  <view class="card" wx:if="{{!userInfo}}" bindtap="Login">
+    <image src="my.png" class='userImg'></image>
+    <text class="nickName">登陆/注册</text>
+  </view>
+
+    <view class="card" wx:else >
+        <view class='userImg'>
+            <image src="my.png" class='userImg'></image>
+        </view>
+
+        <view style="margin-left: 100px" class="nickName">{{userInfo.username}}</view>
+        <view style="margin-left: 100px" class="nick">我的金币: {{userInfo.money||0}}</view>
+    </view>
+
+    <view class='my'>
+        <view class="main" wx:if="{{userInfo}}" bindtap="myBlog">我的任务</view>
+        <view class="main" wx:if="{{userInfo}}" bindtap="signOut">退出登陆</view>
+    </view>
+    <!--<button type="primary"  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登陆 </button>-->
+</view>

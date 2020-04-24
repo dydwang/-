@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4312dbe-c9e6-43fd-9796-7b13a9ad224e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/seafood/sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/adminMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/dydAside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/goodClass/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/goodClass/table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/order/table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/user/table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/wares/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/wares/table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/wares/upImg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/admin/wares/update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/footprint.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/home/comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/home/upImg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/nav/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/sort.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/components/userImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/src/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/star.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/public/javascripts/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/public/javascripts/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/public/stylesheets/element.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/fun/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/fun/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/linkMDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/linkSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/table/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/table/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/table/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/table/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/sql/table/wares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/views/error.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/Serve/views/mysql.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/lib/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/lib/crypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/lib/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/lib/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/lib/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/util/api/adress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/util/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/util/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/dyd-util/util/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/fun/Time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/shopCar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seafood/static/userInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../宠物/pet.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/README-ZH.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Freeback.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Freeback.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/GoodsDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/GoodsDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/GoodsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/GoodsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Order.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Order.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/Search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/ShoppingCart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/ShoppingCart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/footer/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/footer/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/goodsDetail/ShowGoods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/goodsDetail/ShowGoods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/goodsDetail/ShowGoodsDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/goodsDetail/ShowGoodsDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/header/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/header/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/home/AddAddress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/home/AddAddress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/home/MyAddress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/home/MyAddress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/home/MyOrder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/home/MyOrder.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/nav/GoodsClassNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/nav/GoodsClassNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/nav/GoodsDetailNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/nav/GoodsDetailNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/nav/GoodsListNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/nav/GoodsListNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/nav/HomeNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/nav/HomeNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/components/signUp/InputInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/components/signUp/InputInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/vuex/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/vuex/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood/src/vuex/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/seafood/src/vuex/mutations.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seafood/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/seafood" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="海鲜" type="b2602c69:ProjectViewProjectNode" />
+              <item name="海鲜" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4312dbe-c9e6-43fd-9796-7b13a9ad224e" name="Default Changelist" comment="" />
+      <created>1584976212842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584976212842</updated>
+      <workItem from="1584976214160" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/seafood/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

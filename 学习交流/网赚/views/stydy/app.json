@@ -1,0 +1,40 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/my/myblog/myblog",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/signUp/signUp",
+    "pages/index/info/info",
+    "pages/myBlog/myBlog"
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "assets/img/blog1.png",
+        "iconPath": "assets/img/blog.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "assets/img/my1.png",
+        "iconPath": "assets/img/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网赚项目",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "expo": {}
+}

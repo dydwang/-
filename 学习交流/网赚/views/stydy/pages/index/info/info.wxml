@@ -1,0 +1,26 @@
+<!--pages/index/info/info.wxml-->
+<view style="margin: 0 5px">
+    <view style="text-align: center;margin: 0 auto;width: 100%;height: 24px">
+        <text >{{options.undefinednames}}</text>
+    </view>
+    <view style="float: right">
+        <text >{{options.times}}</text>
+    </view>
+    <view style="margin-top: 20px">
+        <text>{{options.mains}}</text>
+    </view>
+</view>
+
+<view class="card">
+<image src="http://localhost:3000/getImg?imagePath={{options.image}}" ></image>
+<view style="float: right">金币{{options.money}}</view>
+<view class="titles">{{options.names}}</view>
+<view>要求：{{options.text}}</view>
+</view>
+
+<button type="primary" wx:if="{{options.status==='等待接取'}}" bindtap="addTask">接任务</button>
+<button type="primary" wx:if="{{options.status==='已接取'||options.status==='审核不通过'}}" bindtap="addSuccess">提交完成审核</button>
+
+
+
+

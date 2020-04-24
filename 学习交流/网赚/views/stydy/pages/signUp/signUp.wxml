@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view id="login">
+    <view style="margin: 100px 0 20px 0">
+        <input name="names" bindchange="bindChangeName" value="{{username}}" placeholder="账号"
+               style="border: 1px solid #3399ea;border-radius: 5px;width: 184px;margin: 0 auto;" />
+    </view>
+    <view style="margin: 0 0 20px 0">
+        <input name="names" bindchange="bindChangenames" value="{{names}}" placeholder="昵称"
+               style="border: 1px solid #3399ea;border-radius: 5px;width: 184px;margin: 0 auto;" />
+    </view>
+    <view style="margin: 0 0 20px 0">
+        <input name="names" bindchange="bindChangePass" value="{{password}}" placeholder="密码"
+               style="border: 1px solid #3399ea;border-radius: 5px;width: 184px;margin: 0 auto;" />
+    </view>
+
+    <view type="text" bindtap="login" style="width: 184px;text-align: right;margin: 0 auto;">登陆</view>
+    <button bindtap="submit">注册</button>
+</view>

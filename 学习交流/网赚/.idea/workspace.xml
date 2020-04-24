@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5976cfd1-4186-40d6-a192-fb05284435cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/kk 2020-04-12 21-05-03.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/assets/dyd-node/sql/table/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/assets/dyd-node/sql/table/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/assets/dyd-node/sql/table/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/views/admin/user/myInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/views/user/my/borrow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/views/user/my/history.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/src/views/user/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../借还/球类自助借还系统服务器端软件设计/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/activeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/artComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/article_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/goodList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/prohibit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/shopCar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/dyd-node/sql/table/userGood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/util/fun/prohibit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/assets/util/fun/publice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/blog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/joinWe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/prohibit/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/goods/createGoods.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/goods/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/goods/upImg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/goods/update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/sort/createSort.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/shop/sort/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/admin/管理员默认账号密码" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/active.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/home/artComment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/home/artInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/home/article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/home/joinWe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/mall/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/mall/info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/active.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/fens.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/pay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/publishBlog/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/publishBlog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/publishBlog/upPdf.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/publishBlog/upVideo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/my/shopCar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/rightBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/userInfo/userInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../博客/基于WEB的星粉互动系统的设计与实现/src/views/user/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/table/goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/table/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/stydy/pages/my/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/kk 2020-04-01 20-54-05.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/sql/table/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/sql/table/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/sql/table/test_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/sql/table/work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/sql/table/work_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/components/upFile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/fun/collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/stu/chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/stu/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/stu/work.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/tea/chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/tea/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/tea/work.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/tea/work_info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/assets/dyd-node/sql/table/commList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/assets/dyd-node/sql/table/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/assets/dyd-node/sql/table/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/assets/excel/Blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/assets/excel/Export2Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/admin/comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/admin/freight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/user/my/com.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/user/my/comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/user/my/pay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../物流/基于WEB的网上物流系统的设计与实现/src/views/user/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/assets/dyd-node/sql/table/cloth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/assets/wedding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/car/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/clothing/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/publishBlog/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/publishBlog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/publishBlog/upPdf.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/publishBlog/upVideo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/wedding/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/my/wedding/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/video/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/video/newsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../电商/婚礼网站/src/views/user/wedding/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/sql/table/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/sql/table/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/sql/table/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/active/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/field/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/team/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/team/upFile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/team/up_image.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/vue租车网站修改/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/dyd-node/sql/table/hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/dyd-node/sql/table/pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/excel/Blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/excel/Export2Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/excel/export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/util/components/dydNextPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/util/publicRouter/pay-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/assets/util/publicRouter/paySuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/admin/sort/upImg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/home/joinWe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/hotel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/hotel/info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/my/comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/my/pay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/news/news.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/news/newsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/pay-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/paySuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/travel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../租车旅游/基于web旅游网站设计与实现/src/views/user/travel/info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/fun/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql/fun/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/linkSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/table/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/table/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/table/course.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/table/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql/table/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/mysql.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/mysql.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/blog/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/blog/blog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/blog/blog.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/blog/blog.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/addCourse/addCourse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/addCourse/addCourse.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/addCourse/addCourse.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/addCourse/addCourse.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/course.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/course.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/course.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/course/switch.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index.js.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/info/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/info/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/my.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/my.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/my.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/my.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/Time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/Time.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/utils/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/utils/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stydy/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/stydy/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/065974019ec48e935f343c7753b706fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/0ed3ad458fb9e58b7d5c1cee01546514" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/15165091464116417f638dff28bf3306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/1d497a6a3b01047caa1dcc4427f8d510" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/1f9cdc0a836b345347169123043d3bb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/201975518d9cedd30339ab7da1e3adb8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/28614d80254aba2de58f6f162321eb02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/38a69a006edb529f5b0a461feef060cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/3bbc55bc495b6f84c63ae6635b531114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/3c320201310a58e76084d10a92bc60b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/3c6134b43dc328b76894ce08f7f14f94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/40d395eacb5479f540c60e8e073c1187" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/41ff816670c3e2a09cea45543324b457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/42a96d005ff3b9ea2f7881e6a77184a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/441734c32f879564bbbc6f10da862523" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/44a990c19b7e228b15cecf4e6ddd4a2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/4606a6cc04a5044af68f26cb31420f49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/47c90586e867c73b0e9faafcc319dcdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/4a0f09f7a18de157b118db24ae76c534" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/4af3419947f26499307eabd95d8b9414" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/539ebe3589ffa10f252166d0ec380b78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/5920f266e604e45d7c4287a3f10af4c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/594e8fb9dede3da7fe0fa0cdb4c8068e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/5a475e55646bab8ca086a7c50d7db915" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/5b6126d6d3d9102b18c0ab199371f5ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/5d406473acc2c08210bfa04156059f71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/6555731e4d2c7a9927234e8725037b86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/6ccedff9098fd919e5c2e1a10aa1a67d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/6de0b4b00c38aaa6ff15f0676c6d019f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/75573ee268597cd1d4a292454a54eebb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/7bea5e310325b79b0ad1a5b1d28195f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/7f67818b2928cc7c492d6e5636cb304b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/8002dcc5fbae56125d815369293bbdea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/82d44326037fa9672a18c718ca2cf847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/8aee5fc0f25d993f66ca6c286d8884d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/8b58ae0d866950b420c7a181cea42c71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/8dcb1b011b326517f192bd7434453838" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/8f149a2ac821f7bec41ba813f78aab69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/ae1224fecc33d3dc49e5c610f6f51479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/b195d1451b8a92b0c6a5028b29788fed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/b3273b00d90b32dcc02362d0997983be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/be7b41cfb2501b7efdd4ea70086c5a8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/c5106578262beb2ec26167c1b0fa4909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/c7f5863a1fea56a9d797eaa95e85cc86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/ca03d62d5a55a85dd84f6bffd3d48041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/cb756a891db0f96836fd3c41ce3cb48a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/cb91916b7046f761acce891839b23f78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d0ffa620812e7e6cd86041829c8f33d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d1b37846b43e34b74a6d100c3ab6d076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d4a2a0310840c6709814933fb96c70e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d8705671faffa4ff8dd4b2678850510c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d8f0ed323eae30dcef5a346dc0590c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/d8fbc1914f05f566a37386a40976d05b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/db700c7b96e9b9931ac4ca277216ea62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/dc4c47dbd682ccbcdbe52d1fc65e49e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/dcd61fa30cc5a460b60ad0901488cea5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/dyd-node/public/uploads/e92934408222bee85a3d8918a0bb2492" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/fun/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/fun/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/util/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/assets/util/util/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/admin/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/stu/course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/my/stu/course.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../课程补习管理系统/src/views/user/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../点餐/度假村旅游餐饮管理系统.7z" beforeDir="false" afterPath="$PROJECT_DIR$/../../点餐/度假村旅游餐饮管理系统.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../电商/海鲜/纺织品.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/06206fcc428743ba1cac3d6eceaa0d27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/0ed3ad458fb9e58b7d5c1cee01546514" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/12c74cea2d0cd9b67a690b099a873334" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/15165091464116417f638dff28bf3306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/1c24986cf5529a1d4ea8c5df669b57e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/1d497a6a3b01047caa1dcc4427f8d510" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/1f3bd0eca62617aacec9a2676f3a7882" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/1f9cdc0a836b345347169123043d3bb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/201975518d9cedd30339ab7da1e3adb8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/2bccb5569013fc4208da2d6864fa65cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/376ef612472fa21ca82d064dcc29e99f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/3bbc55bc495b6f84c63ae6635b531114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/3c320201310a58e76084d10a92bc60b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/3c6134b43dc328b76894ce08f7f14f94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/40d395eacb5479f540c60e8e073c1187" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/41ff816670c3e2a09cea45543324b457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/441734c32f879564bbbc6f10da862523" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/448b0bd48f721ba31040c5c69650f7ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/44a990c19b7e228b15cecf4e6ddd4a2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/4606a6cc04a5044af68f26cb31420f49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/47c90586e867c73b0e9faafcc319dcdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/4a0f09f7a18de157b118db24ae76c534" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/539ebe3589ffa10f252166d0ec380b78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/5920f266e604e45d7c4287a3f10af4c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/594e8fb9dede3da7fe0fa0cdb4c8068e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/5a475e55646bab8ca086a7c50d7db915" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/5d406473acc2c08210bfa04156059f71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/6555731e4d2c7a9927234e8725037b86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/6de0b4b00c38aaa6ff15f0676c6d019f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/75573ee268597cd1d4a292454a54eebb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/7963d2bb57efe147813138e2a1effd03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/7bea5e310325b79b0ad1a5b1d28195f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/7f67818b2928cc7c492d6e5636cb304b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/8002dcc5fbae56125d815369293bbdea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/82d44326037fa9672a18c718ca2cf847" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/847a9101c6e13fd5f3a8b9a89e1e1457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/8aee5fc0f25d993f66ca6c286d8884d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/8af13259fd926d08bfb7f73e2703307a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/8b58ae0d866950b420c7a181cea42c71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/8f149a2ac821f7bec41ba813f78aab69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/92a6fc7e52846ebdf35bde6e01fae738" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/9344f12a447a75a4b188f6e4443894fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/978d3627820bcf248f58daa0c99ea1aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/a52cc07167d8bcf37638d7a34e51c6ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/ae1224fecc33d3dc49e5c610f6f51479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/af25310960e5b5d76299dca868cca2e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/b195d1451b8a92b0c6a5028b29788fed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/b3273b00d90b32dcc02362d0997983be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/be7b41cfb2501b7efdd4ea70086c5a8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/c5106578262beb2ec26167c1b0fa4909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/c7f5863a1fea56a9d797eaa95e85cc86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/ca03d62d5a55a85dd84f6bffd3d48041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/cb756a891db0f96836fd3c41ce3cb48a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/cb91916b7046f761acce891839b23f78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d0ffa620812e7e6cd86041829c8f33d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d1b37846b43e34b74a6d100c3ab6d076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d47e04038d588fecf27ea9001796e7d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d4a2a0310840c6709814933fb96c70e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d8705671faffa4ff8dd4b2678850510c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d8f0ed323eae30dcef5a346dc0590c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/d8fbc1914f05f566a37386a40976d05b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/db700c7b96e9b9931ac4ca277216ea62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/dc4c47dbd682ccbcdbe52d1fc65e49e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/dcd61fa30cc5a460b60ad0901488cea5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/dda3ff991d033bbf98f2f1318cc3bae6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/e08d20e67e9a90af2639763a0c3203fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/e104bf5393429bcb47f209825c216521" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/e5c03d9023753009981b337c91d04c3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/e60b40af1cb752fb7daa74867564742a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/e7c84b1d3993cbb4c9f293ef3c7abd35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/dyd-node/public/uploads/f19102b1d0f70dc337998cf5b379c6e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/components/dydVideo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/components/dydVideo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/fun/Time.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/fun/Time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/util/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/assets/util/util/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/active/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/active/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/field/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/field/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/per/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/admin/per/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/active/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/active/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/field/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/field/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/per/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/per/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/team/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../社团/基于Vue的响应式校园社团服务平台的设计与开发/src/views/user/my/team/index.vue" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dyd-node" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin/pc/src/views/admin/goods/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="55" column="85" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/info/info.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="76" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#view#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#swiper-item#0;n#swiper#0;n#view#1;n#view#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/table/goods.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/error.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/mysql.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.wxml" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myins/myins.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.wxml" />
+        <option value="$PROJECT_DIR$/sql/table/course.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.js" />
+        <option value="$PROJECT_DIR$/sql/table/blog.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myBlog/Time.wxs" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/course/course.wxml" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/course/course.js" />
+        <option value="$PROJECT_DIR$/sql/table/comment.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/sql/fun/index.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.wxml" />
+        <option value="$PROJECT_DIR$/sql/db.js" />
+        <option value="$PROJECT_DIR$/views/mysql.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/router/index.js" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/views/admin/login.vue" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/views/admin/index.vue" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/views/admin/menu.js" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/assets/util/components/upImg.vue" />
+        <option value="$PROJECT_DIR$/views/stydy/utils/api/api.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/login/login.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/utils/util.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/login/login.wxml" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/signUp/signUp.wxml" />
+        <option value="$PROJECT_DIR$/sql/table/user.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/login/login.js" />
+        <option value="$PROJECT_DIR$/views/stydy/app.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/my.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/my.wxml" />
+        <option value="$PROJECT_DIR$/sql/table/task.js" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/views/admin/goods/createGoods.vue" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/assets/util/util/user.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/my.js" />
+        <option value="$PROJECT_DIR$/views/stydy/app.json" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/info/info.wxml" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/info/info.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/signUp/signUp.js" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.wxml" />
+        <option value="$PROJECT_DIR$/views/admin/pc/src/views/admin/goods/index.vue" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/index.wxss" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/views/stydy/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/sql/table/goods.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="y" value="57" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SERVE-小程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVE-小程序" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SERVE-小程序" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVE-小程序" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../宠物/宠物社区" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\接单\学习交流\SERVE\views\stydy\pages\my\myBlog" />
+      <recent name="E:\node\express\dyd-node\public\stylesheets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\接单\学习交流\SERVE-小程序\views\stydy\pages\my" />
+      <recent name="E:\接单\学习交流\SERVE-小程序\views" />
+      <recent name="E:\接单\学习交流\SERVE-小程序\sql\table" />
+      <recent name="E:\接单\学习交流\SERVE\views\stydy\pages\my\myBlog" />
+      <recent name="E:\接单\学习交流\SERVE\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5976cfd1-4186-40d6-a192-fb05284435cd" name="Default Changelist" comment="" />
+      <created>1579531855349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579531855349</updated>
+      <workItem from="1579531861618" duration="19652000" />
+      <workItem from="1579614064681" duration="11020000" />
+      <workItem from="1580733721798" duration="61000" />
+      <workItem from="1580805628823" duration="143000" />
+      <workItem from="1580806436595" duration="480000" />
+      <workItem from="1581058258974" duration="153000" />
+      <workItem from="1581338927879" duration="231000" />
+      <workItem from="1581690629470" duration="225000" />
+      <workItem from="1581691730187" duration="3065000" />
+      <workItem from="1581747780120" duration="12486000" />
+      <workItem from="1581767041969" duration="15068000" />
+      <workItem from="1581828224043" duration="462000" />
+      <workItem from="1581862484998" duration="18000" />
+      <workItem from="1582616504482" duration="198000" />
+      <workItem from="1586437752989" duration="5431000" />
+      <workItem from="1586444322899" duration="1860000" />
+      <workItem from="1586450963576" duration="1000" />
+      <workItem from="1586967009115" duration="7067000" />
+      <workItem from="1587010557072" duration="66000" />
+      <workItem from="1587055718410" duration="234000" />
+      <workItem from="1587055994750" duration="5488000" />
+      <workItem from="1587093603035" duration="798000" />
+      <workItem from="1587095312329" duration="4745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="88952000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.18898809" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.16443452" />
+      <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.16443452" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" weight="0.3704918" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views/stydy/pages/my/myBlog/myBlog.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/stydy/assets/img/blog1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/assets/img/course.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/assets/img/course1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/assets/img/my1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/assets/img/my.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/login/login.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.wxml" />
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/addBlog/addBlog.js" />
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/signUp/signUp.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/table/image.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/table/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/login/login.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/myBlog/myBlog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/my.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/views/admin/pay/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/views/admin/goods/createGoods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/util/util/url.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/views/admin/image.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/util/util/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/info/info.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/util/fun/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/utils/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" selection-start-line="44" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/my.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#1;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/my.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/info/info.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/info/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/signUp/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/my/myblog/myblog.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="107" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/info/info.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/views/admin/goods/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="55" column="85" selection-start-line="55" selection-start-column="85" selection-end-line="55" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#swiper-item#0;n#swiper#0;n#view#1;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/dyd-node/sql/table/comment.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/dyd-node/sql/table/image.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/pc/src/assets/dyd-node/sql/table/goods.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stydy/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/table/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mysql.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+  </component>
+</project>
